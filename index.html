@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alphabet Position Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>ALPHABET POSITION GAME</h1>
+        <label for="timer" id="timer-label">ENTER TIME:</label><br>
+        <input type="number" id="timer" min="1" required><br>
+        <button id="start">Start Game</button>
+        <button id="reset">Reset Game</button>
+
+        <div id="countdown"></div>
+
+        <div id="game"></div>
+        <div id="answer-container">
+            <input type="number" id="answer" autofocus autocomplete="off"><br>
+            <button id="submit">Submit</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
